@@ -995,7 +995,9 @@ form .row {
     border: 1px solid #a7a8a7;
 }
 
-.button:hover, .button:active, .button:active{
+.button:hover,
+.button:active,
+.button:active {
     background: var(--darker);
     color: #fff;
 }
@@ -2444,6 +2446,12 @@ a.blog-read:hover {
 /*--//events --*/
 
 /*-- Contact --*/
+.contactus form {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 .contact-left-agile h4 {
     font-size: 21px;
     text-align: left;
@@ -2477,7 +2485,7 @@ a.blog-read:hover {
 
 .contact-right-ltpwr input.text,
 .contact-right-ltpwr textarea {
-    width: 48.6%;
+    width: 100%;
     float: left;
     margin: 0 10px 25px 0;
     padding: 15px 10px;
@@ -2492,14 +2500,15 @@ a.blog-read:hover {
 }
 
 .contact-right-ltpwr input.more_btn {
-    float: right;
-    padding: 7px 15px;
+    padding: 15px;
     outline: transparent;
     border: none;
     background: var(--primary);
     color: var(--light);
     text-transform: uppercase;
     font-weight: bold;
+    width: 100%;
+    font-size: 18px;
 }
 
 .contact-right-ltpwr input.more_btn:hover {
@@ -2507,7 +2516,7 @@ a.blog-read:hover {
 }
 
 ::-webkit-input-placeholder {
-    color: var(--light) !important;
+    color: #c3c4c3 !important;
 }
 
 /*-- Map --*/
@@ -3548,7 +3557,6 @@ h2.terms_title {
 }
 
 @media screen and (max-width: 1200px) {
-
     .contact-right-ltpwr input.text,
     .contact-right-ltpwr textarea {
         width: 100%;
@@ -3899,13 +3907,10 @@ h2.terms_title {
         float: left;
     }
 
-    .contact-right-ltpwr {
-        width: 66.6%;
-        float: left;
-    }
-
-    .contact-right-ltpwr input.text {
-        width: 47.7%;
+    .contactus form {
+        width: 90%;
+        display: block;
+        margin: auto;
     }
 
     .map iframe {
@@ -4126,9 +4131,6 @@ h2.terms_title {
         margin-right: 14px;
     }
 
-    .contact-right-ltpwr input.text {
-        width: 47.6%;
-    }
 
     .ltpwrls_search input[type="submit"] {
         background: url(../images/img-sp.png) no-repeat 10px -392px rgb(2, 24, 136);
@@ -5693,10 +5695,10 @@ h2.title_section {
     }
 }
 
-.wordline_sub{
+.wordline_sub {
     color: var(--darker) !important;
 }
 
-form .input{
+form .input {
     height: 42px;
 }
