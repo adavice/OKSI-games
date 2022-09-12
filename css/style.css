@@ -201,18 +201,18 @@ body {
 }
 
 .frames.game_list:hover {
-    color: var(--secondary);
-    border-color: var(--secondary);
+    color: var(--highlight);
+    border-color: var(--highlight);
 
 }
 
 .frames.game_list:hover a {
-    background-color: var(--secondary);
+    background-color: var(--highlight);
     color: var(--light);
 }
 
 .frames.game_list:hover a:hover {
-    background-color: var(--secondary);
+    background-color: var(--highlight);
     color: var(--light);
 }
 
@@ -298,9 +298,9 @@ body {
 }
 
 .main_container__heading:nth-child(3)::before {
-    content: 'Instantly';
+    content: 'Top';
     position: absolute;
-    right: -80px;
+    right: -20px;
     top: 50%;
     transform: translate(0, -50%);
     font-size: 30px;
@@ -5631,12 +5631,6 @@ h2.title_section {
     padding-left: 20px;
 }
 
-@media screen and (max-width: 1500px) {
-    .main_container__heading:nth-child(3)::before {
-        right: -5%;
-    }
-}
-
 @media screen and (max-width: 1300px) {
     .main_container__heading.first {
         font-size: 200px;
@@ -5678,6 +5672,7 @@ h2.title_section {
 
     .main_container__heading:nth-child(3)::before {
         font-size: 30px;
+        right: 0;
     }
 }
 
