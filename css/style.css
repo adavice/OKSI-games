@@ -2088,7 +2088,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .tips .gallery-grid {
     float: left;
-    width: calc(50% - 1em);
+    width: calc(25% - 1em);
     margin: 0.5em;
 }
 
@@ -5437,7 +5437,7 @@ h2.title_section {
 
 .tips .new-grid-ltpwrl img,
 .games .new_games_img {
-    height: 315px;
+    height: 160px;
 }
 
 .games .img-responsive .zoom-img img {
@@ -5449,7 +5449,7 @@ h2.title_section {
     .new-grid-ltpwrl img,
     .tips .new-grid-ltpwrl img,
     .games .new_games_img {
-        height: 220px;
+        height: 140px;
     }
 
     .all_games .new-grid-ltpwrl img {
