@@ -5435,9 +5435,12 @@ h2.title_section {
     }
 }
 
-.tips .new-grid-ltpwrl img,
-.games .new_games_img {
+.tips .new-grid-ltpwrl img{
     height: 160px;
+}
+
+.games .new_games_img {
+    height: 315px;
 }
 
 .games .img-responsive .zoom-img img {
@@ -5447,9 +5450,12 @@ h2.title_section {
 @media screen and (max-width: 1200px) {
 
     .new-grid-ltpwrl img,
-    .tips .new-grid-ltpwrl img,
-    .games .new_games_img {
+    .tips .new-grid-ltpwrl img{
         height: 140px;
+    }
+
+    .games .new_games_img{
+        height: 250px;
     }
 
     .all_games .new-grid-ltpwrl img {
