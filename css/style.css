@@ -31,7 +31,8 @@ body {
     transition: 0s;
     left: 50%;
     top: 50%;
-    max-height: 70%;
+    /*max-height: 70%;*/
+    max-height: 50%;
     width: auto;
     filter: contrast(1.1);
     transform: translate(-50%, -65%);
@@ -188,6 +189,7 @@ body {
 
 .main_container.heroBanner .frames {
     padding: 100px 60px;
+    padding-top: 180px;
 }
 
 .popartGrad .frames {
@@ -3557,6 +3559,7 @@ h2.terms_title {
 }
 
 @media screen and (max-width: 1200px) {
+
     .contact-right-ltpwr input.text,
     .contact-right-ltpwr textarea {
         width: 100%;
@@ -4183,6 +4186,7 @@ h2.terms_title {
     .main_container.heroBanner .frames {
         padding: 0;
         justify-content: space-evenly;
+        padding-top: 50px;
     }
 
     .trend-ltpwrlayouts h4,
@@ -5435,7 +5439,7 @@ h2.title_section {
     }
 }
 
-.tips .new-grid-ltpwrl img{
+.tips .new-grid-ltpwrl img {
     height: 160px;
 }
 
@@ -5450,11 +5454,11 @@ h2.title_section {
 @media screen and (max-width: 1200px) {
 
     .new-grid-ltpwrl img,
-    .tips .new-grid-ltpwrl img{
+    .tips .new-grid-ltpwrl img {
         height: 140px;
     }
 
-    .games .new_games_img{
+    .games .new_games_img {
         height: 250px;
     }
 
@@ -5702,4 +5706,16 @@ h2.title_section {
 
 form .input {
     height: 42px;
+}
+
+.banner_image {
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 950px) {
+    .banner_image {
+        width: 80%;
+    }   
 }
